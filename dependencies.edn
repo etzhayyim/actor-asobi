@@ -1,6 +1,6 @@
 {:repository/name "com-etzhayyim-asobi"
  :dependencies/runtime
- [{:name "com-etzhayyim-ie-flow"
+ [{:name "kotoba-lang/ie-flow"
    :revision "35d36d912c9596dbc5094947b60202d9abdf61e6"}]
  :dependencies/integrates
  [{:name "com-etzhayyim-danjo" :revision "040520906acd07478391f80170181e7cf7919391"}
