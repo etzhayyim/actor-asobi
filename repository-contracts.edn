@@ -1,4 +1,4 @@
-{:repository/name "com-etzhayyim-asobi"
+{:repository/name "actor-asobi"
  :repository/category :actor
  :repository/canonical-format :edn
  :repository/canonical-metadata "manifest.edn"

@@ -1,4 +1,4 @@
-# com-etzhayyim-asobi
+# actor-asobi
 
 `asobi`（遊び）は freed-time / play / cultural-expression の actor repository です。
 旧 `etzhayyim/root/20-actors/asobi` の実装と契約を、この flat west project に統合します。
