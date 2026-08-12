@@ -1,4 +1,4 @@
-{:did        "did:web:etzhayyim.github.io:com-etzhayyim-asobi"
+{:did        "did:web:etzhayyim.com:actor:asobi"
  :handle     "asobi.etzhayyim.com"
  :ipns-key   "asobi-actor"
  :graph-type "com.etzhayyim.asobi.graph"
