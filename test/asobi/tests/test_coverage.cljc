@@ -1,6 +1,6 @@
 (ns asobi.tests.test-coverage
   "asobi 遊び — coverage-report tests (ADR-2606073200). 1:1 Clojure port of tests/test_coverage.py."
-  (:require [clojure.test :refer [deftest is run-tests]]
+  (:require [kotoba.lang.text] [clojure.test :refer [deftest is run-tests]]
             [clojure.java.io :as io]
             [asobi.methods.analyze :as analyze]
             [asobi.methods.coverage-report :as coverage]))
@@ -12,11 +12,11 @@
 (deftest test-coverage-renders-and-is-honest
   (let [{:keys [nodes edges]} (load-seed)
         md (coverage/report nodes edges)]
-    (is (clojure.string/includes? md "coverage of all culture is ~0 by design"))
-    (is (clojure.string/includes? md "Gap map"))
+    (is (kotoba.lang.text/includes? md "coverage of all culture is ~0 by design"))
+    (is (kotoba.lang.text/includes? md "Gap map"))
     ;; both an open and an enclosed access category appear in a real seed
-    (is (and (clojure.string/includes? md "public-domain")
-             (clojure.string/includes? md "proprietary")))))
+    (is (and (kotoba.lang.text/includes? md "public-domain")
+             (kotoba.lang.text/includes? md "proprietary")))))
 
 (deftest test-media-and-domains-present
   (let [{:keys [nodes]} (load-seed)

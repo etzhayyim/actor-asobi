@@ -21,7 +21,7 @@
   (:require [asobi.methods.analyze :as an]
             [etzhayyim.ie-flow.gate-adapter :as ga]
             [etzhayyim.ie-flow.metrics :as iem]
-            [clojure.string :as str]))
+            [kotoba.lang.text :as str]))
 
 (def default-seed "data/seed-asobi-graph.kotoba.edn")
 

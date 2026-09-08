@@ -8,7 +8,7 @@
   makes the real covered backbone measurable and names the next wave.
 
   Pure fns; reuses asobi.methods.analyze for the loader. Portable .cljc."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [asobi.methods.analyze :as analyze]))
 
 (def media [":music" ":film" ":text" ":game" ":stage" ":visual" ":sport-form"])

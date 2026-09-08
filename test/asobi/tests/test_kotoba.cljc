@@ -4,7 +4,7 @@
 (ns asobi.tests.test-kotoba
   (:require [asobi.methods.kotoba :as k]
             [asobi.methods.autorun :as auto]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is run-tests]]
             [clojure.java.io :as io]))
 
