@@ -12,7 +12,7 @@
   emit TEXT is byte-identical to the Python emitter — float :g formatting, datom ordering,
   the ';; ── DERIVED readouts …' comment, and the ground vs transient/derived split all
   mirror datom_emit.py exactly. Pure fns; file I/O only at the #?(:clj) -main edge."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [asobi.methods.analyze :as analyze]))
 
 ;; NODE_ATTRS / EDGE_ATTRS — emission order of node & edge attributes (mirrors datom_emit.py).

@@ -14,7 +14,7 @@
   + edges content-stable → resume-safe. IDEMPOTENT-BY-CONTENT: a beat whose ground datoms
   equal the previous beat's is a NO-OP. No-server-key: appends to a local file only, no
   network I/O. G1: an ACCESS map routed to OPENING, never an engagement/popularity ranking."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [asobi.methods.analyze :as analyze]
             [asobi.methods.datom-emit :as de]
             [asobi.methods.kotoba :as k]

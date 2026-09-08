@@ -23,7 +23,7 @@
   appends to a local file. G1: the ledger is an ACCESS map of freed-time / cultural
   expression routed to OPENING, NEVER an engagement/popularity ranking (no retention
   metric; no-addictive-design, Wellbecoming §1.13)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [clojure.java.io :as io])))
 
 (defn add [entity attr value] [":db/add" entity attr value])
