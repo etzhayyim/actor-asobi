@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; asobi 遊び — play-commons-ledger persistence + heartbeat tests.
-;; Run:  bb --classpath 20-actors 20-actors/asobi/tests/test_kotoba.cljc
+;; Run:  kbb --classpath 20-actors 20-actors/asobi/tests/test_kotoba.cljc
 (ns asobi.tests.test-kotoba
   (:require [asobi.methods.kotoba :as k]
             [asobi.methods.autorun :as auto]

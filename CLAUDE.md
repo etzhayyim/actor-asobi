@@ -25,8 +25,8 @@
 
 ## Test
 
-    bb run_tests.cljk
-    clojure -M:test
+    kbb run_tests.cljk
+    kbb -M:test
 
 Deployment metadata is canonical in `kotoba.app.edn`; its source entry is
 `src/asobi/mesh.cljk`.

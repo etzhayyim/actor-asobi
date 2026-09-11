@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; asobi 遊び — freed-time/play-graph DATOM-LOG writer (content-addressed commit-DAG).
 (ns asobi.methods.kotoba
   "kotoba.cljc — asobi 遊び append-only PLAY-COMMONS LEDGER writer
