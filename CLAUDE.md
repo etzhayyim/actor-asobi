@@ -8,7 +8,7 @@
 - 正規メタデータ・identity・依存関係・schema・seed は EDN。
 - Clojure/ClojureScript source は `src/asobi/`、test は `test/asobi/`。
 - JSON/JSON-LD は外部互換 wire のみに限定し、`wire/` または `.well-known/` に置く。
-- Go/TinyGo と shell runner は deprecated。test entry point は `run_tests.clj`。
+- Go/TinyGo と shell runner は deprecated。test entry point は `run_tests.cljk`。
 - dependency pin は `dependencies.edn` と `deps.edn` で明示する。
 
 ## Layout
@@ -25,8 +25,8 @@
 
 ## Test
 
-    bb run_tests.clj
+    bb run_tests.cljk
     clojure -M:test
 
 Deployment metadata is canonical in `kotoba.app.edn`; its source entry is
-`src/asobi/mesh.clj`.
+`src/asobi/mesh.cljk`.
