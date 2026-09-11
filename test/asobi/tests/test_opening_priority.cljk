@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; asobi 遊び — tests for the opening-priority (enclosure − openness balance) lens.
-;; Run:  bb --classpath 20-actors 20-actors/asobi/tests/test_opening_priority.cljc
+;; Run:  kbb --classpath 20-actors 20-actors/asobi/tests/test_opening_priority.cljc
 (ns asobi.tests.test-opening-priority
   "Tests for opening-priority — per-node OPENING priority by the enclosure↔openness BALANCE
   (enclosure − openness), so a work that is enclosed in one venue but open in another is correctly

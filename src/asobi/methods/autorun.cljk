@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; asobi 遊び — autonomous heartbeat: load the play graph → append GROUND datoms.
 (ns asobi.methods.autorun
   "autorun.cljc — asobi 遊び deterministic heartbeat (ADR-2606073200, inochi/tate pattern).

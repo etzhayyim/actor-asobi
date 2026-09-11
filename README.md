@@ -13,5 +13,5 @@ compatibility redirect.
 ## Verify
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```

@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; asobi 遊び — ie-flow embedding (the SoS scoring leg) via the shared gate-adapter.
 (ns asobi.methods.ie-flow
   "ie_flow.cljc — asobi 遊び embeds the information-energy flow lifecycle (etzhayyim.ie-flow,
