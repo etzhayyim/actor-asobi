@@ -5,7 +5,7 @@
   (:require [asobi.methods.analyze :as an]
             [asobi.methods.ie-flow :as ief]
             [etzhayyim.ie-flow.score :as score]
-            [clojure.test :refer [deftest is run-tests]]))
+            [kotoba.test :refer [deftest is run-tests]]))
 
 (def seed-path (-> #'ief/default-seed var-get))
 (defn- g [] (an/load-file* seed-path))
