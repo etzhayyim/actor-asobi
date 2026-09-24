@@ -5,7 +5,7 @@
   (:require [asobi.methods.kotoba :as k]
             [asobi.methods.autorun :as auto]
             [kotoba.lang.text :as str]
-            [clojure.test :refer [deftest is run-tests]]
+            [kotoba.test :refer [deftest is run-tests]]
             [clojure.java.io :as io]))
 
 (defn- tmp [] (str (System/getProperty "java.io.tmpdir") "/asobi-ledger-test-" (gensym) ".edn"))

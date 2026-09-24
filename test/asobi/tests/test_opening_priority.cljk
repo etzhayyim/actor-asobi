@@ -6,7 +6,7 @@
   (enclosure − openness), so a work that is enclosed in one venue but open in another is correctly
   de-prioritized vs one that is purely gated. An access map, never an engagement ranking (G1)."
   (:require [asobi.methods.analyze :as a]
-            [clojure.test :refer [deftest is run-tests]]))
+            [kotoba.test :refer [deftest is run-tests]]))
 
 (def ^:private nodes
   {"w1" {":organism/label" "Streaming series"}
