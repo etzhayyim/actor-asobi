@@ -18,7 +18,7 @@
             [asobi.methods.analyze :as analyze]
             [asobi.methods.datom-emit :as de]
             [asobi.methods.kotoba :as k]
-            #?(:clj [clojure.java.io :as io])))
+            #?(:clj [kotoba.io :as io])))
 
 (defn- strip-colon [s] (if (str/starts-with? s ":") (subs s 1) s))
 

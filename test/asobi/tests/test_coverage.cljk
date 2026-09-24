@@ -1,7 +1,7 @@
 (ns asobi.tests.test-coverage
   "asobi 遊び — coverage-report tests (ADR-2606073200). 1:1 Clojure port of tests/test_coverage.py."
   (:require [kotoba.lang.text] [kotoba.test :refer [deftest is run-tests]]
-            [clojure.java.io :as io]
+            [kotoba.io :as io]
             [asobi.methods.analyze :as analyze]
             [asobi.methods.coverage-report :as coverage]))
 
